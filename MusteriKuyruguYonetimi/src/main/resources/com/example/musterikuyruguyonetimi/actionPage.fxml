@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="470.0" prefWidth="400.0" style="-fx-background-radius: 100;" stylesheets="@stillPage.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.musterikuyruguyonetimi.ActionController">
+   <children>
+      <Button id="sale" fx:id="customerServiceButton" layoutX="82.0" layoutY="290.0" mnemonicParsing="false" onAction="#onCustomerServiceButtonClick" prefHeight="46.0" prefWidth="237.0" stylesheets="@stylesheet.css" text="Customer Services">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="97.0" layoutY="28.0" text="Orhan Bank" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label fx:id="actionWelcomeText" alignment="CENTER" contentDisplay="CENTER" layoutX="84.0" layoutY="86.0" prefHeight="17.0" prefWidth="237.0" textFill="WHITE" />
+      <Button id="sale" fx:id="cardButton" layoutX="82.0" layoutY="220.0" mnemonicParsing="false" onAction="#onCardButtonClick" prefHeight="46.0" prefWidth="237.0" stylesheets="@stylesheet.css" text="Card Services">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button id="sale" fx:id="accountButton" layoutX="82.0" layoutY="150.0" mnemonicParsing="false" onAction="#onAccountButtonClick" prefHeight="46.0" prefWidth="237.0" stylesheets="@stylesheet.css" text="Account Transactions">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Label fx:id="actionText" alignment="CENTER" contentDisplay="CENTER" layoutX="84.0" layoutY="117.0" prefHeight="17.0" prefWidth="237.0" textFill="RED" />
+      <Button id="sale" fx:id="otherServiceButton" layoutX="82.0" layoutY="360.0" mnemonicParsing="false" onAction="#onOtherServiceButtonClick" prefHeight="46.0" prefWidth="237.0" stylesheets="@stylesheet.css" text="Other Banking Services">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button id="red" fx:id="exitButton" layoutX="126.0" layoutY="418.0" mnemonicParsing="false" onAction="#onExitButtonClick" prefHeight="46.0" prefWidth="139.0" stylesheets="@stylesheet.css" text="Exit">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
