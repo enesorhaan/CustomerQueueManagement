@@ -1,5 +1,7 @@
 # Customer Queue Management System
 
+This project is the final project for the data structures lesson.
+
 The Customer Queue Management System is a JavaFX-based application designed to manage customer queues efficiently. This system allows users to register new customers, log in using an ID or phone number, and add customers to a queue for different services. The primary goal is to streamline the customer service process by maintaining an organized queue and ensuring that each customer is served in the order they arrive.
 
 ## Table of Contents
